@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Towne Lake</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Rating Our Parks</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lake.html">Towne Lake</a></li>
+                <li><a href="finch.html">Finch Park</a></li>
+                <li><a href="erwin.html">Erwin Park</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <main>
+			<div class="banner">
+				<img src="park pictures/lake/dock2banner.jpg" style="width: 100%;">
+				<div class="bannertext"><h2>About</h2></div>
+			</div>
+
+            <p class="content">
+                This website is a project for an Interface Design class. I chose to base my project 
+                on something that related to the outdoors so I chose to review some of the 
+                public parks in my hometown. Some of the criteria considered for each rating includes
+                 the ammenities available in each park, accessibility, and nostalgia. If you think 
+                 my rankings were off, feel free to email me at the email listed below. Thank you.
+            </p>
+			
+            <!--<p id="dgreen">Dark Green - #405840</p>
+            <p id="ogreen">Olive Green - #88915d</p>
+            <p id="sblue">Sky Blue - #9fd4e6</p>
+            <p id="peach">Peach - #f3d0bd</p>-->
+        </main>
+        <footer>
+            <p id="copyright">© 2022 Copyright - All Rights Reserved</p>
+			<p>|</p>
+            <p id="privacy"><a href="https://www.freeprivacypolicy.com/live/1b9fdf54-8556-4111-af2e-0689758a5587">Privacy Policy</a></p>
+            <p>|</p>
+			<p id="author">Author: Oscar Ortiz, 27 Nov 2022</p>
+			<p>|</p>
+			<p id="email">Email: oortizgonzalez1@collin.edu</p>
+        </footer>
+    </body>
+</html>

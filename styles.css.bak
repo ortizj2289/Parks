@@ -1,0 +1,189 @@
+/*PAGE BG-COLOR*/
+body{
+    background-color: #405840;
+    margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.body{
+	margin: 0 15px 0 15px;
+	max-width: 850px;
+}
+
+/*HEADER*/
+header{
+    background-color: #9fd4e6;
+}
+
+h1{
+    font-size: 3.8vw;
+    color: #4f4f4f;
+    text-align: center;
+	padding: 13px 0px 13px 17px;
+}
+
+/*NAVIGATION BAR*/
+nav{
+    background-color: #88915d;
+    list-style-type: none;
+    text-align: center;
+    color: #405840;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+}
+
+a:link{
+    color: #9fd4e6;
+}
+
+a:visited{
+	color: rgb(169, 34, 202);
+}
+
+a:hover{
+	color: #9fd4e6;
+}
+
+/*MAIN CONTENT*/
+main{
+    background-color: transparent;
+}
+
+.banner{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.bannertext{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-text-stroke: 1px black;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.content{
+    color: #9fd4e6;
+    font-size: 23px;
+    margin: 20px 15px 20px 15px;
+}
+
+.dock_img{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 15px 20px 15px;
+}
+
+.tlake_imgs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tlake_imgs img {
+	width: 58%;
+	height: 58%;
+	margin: 10px;
+	position: relative;
+}
+
+#topimg {
+	z-index: 1;
+}
+
+#middleimg {
+	/*outline: solid #9fd4e6 1px;
+	outline-offset: 100px;*/
+}
+
+#dgreen{
+    background-color: #405840;
+    color: white;
+}
+
+#ogreen{
+    background-color: #88915d;
+}
+
+#sblue{
+    background-color: #9fd4e6;
+}
+
+/*#peach{
+    background-color: #f3d0bd;
+}*/
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #88915d;
+}
+
+/*MOBILE VERSION*/
+@media screen and (min-width:480px) and (max-width:800px){
+
+    /*MOBILE NAV BAR*/
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    li{
+        margin-left: -1.7em;
+        line-height: 40px;
+        border: solid #405840;
+        border-collapse: collapse;
+    }
+
+    a{
+        display:block;
+        margin: -12px;
+    }
+	
+	footer a {
+		border: solid blue 1px;
+	}
+
+    a:hover{
+        background-color: #405840;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+		border: solid white 1px;
+    }
+
+    footer p{
+        border: solid red 1px;
+		justify-content: space-evenly;
+		
+    }
+	
+	.footerdivider {
+		display: none;
+	}
+
+    h1{
+    font-size: 30px;
+    }
+
+    header{
+        padding: 1px;
+    }
+}
